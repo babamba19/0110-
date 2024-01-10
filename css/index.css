@@ -1,0 +1,59 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.wrap {
+  height: 100vh;
+  background: url("../images/welcome_bg.png") no-repeat center;
+  /* container -높이 cover - 너비 */
+  background-size: cover;
+  padding: 134px 25px 42px 25px;
+}
+.container {
+  /* background-color: antiquewhite;    */
+  max-width: 300px;
+  margin: auto;
+}
+.main-tt {
+  text-align: center;
+  color: #fff;
+  /* font-family: Poppins; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main-st {
+  color: #fff;
+  text-align: center;
+  /* font-family: Poppins; */
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  margin-top: 127px;
+}
+.sign-links {
+  margin-top: 119px;
+}
+.sign-links li {
+  width: 325px;
+  height: 50px;
+  margin-top: 25px;
+  background-color: #7e57c2;
+}
+.sign-links li a {
+  color: #fff;
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  display: block;
+}
